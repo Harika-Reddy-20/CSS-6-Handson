@@ -1,0 +1,67 @@
+.shara{
+    background-image: url(./images/pic5.jpg);
+}
+.box1{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-left: 1000px;
+    top: 35px;
+    left: 30px;
+}
+.box2{
+    position: relative;
+    margin-right: 1000px;
+    display: inline-block;
+    top: 5px;
+    left: 10px;
+}
+.container1{
+    position: relative;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 600px;
+    margin-bottom: 20px ;
+    transition: transform 3s;
+}
+.container1:hover{
+    transform: translateY(10px);
+}
+.container2{
+    position: relative;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 600px ;
+    margin-bottom: 20px;
+    transition: transform 3s;
+} 
+.container2:hover{
+    transform: translateY(10px);
+}
+.para{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 800px;
+    
+}
+.text{
+    position: relative;
+    width: 200px;
+    height: 40px;
+    top: 20px;
+    right: 1000px;
+    text-align: center;
+}
+.head{
+    font-size: 80px;
+    justify-content: space-between;
+    top: 20px;
+}
+.submit{
+    border-radius: 15px;
+
+}
